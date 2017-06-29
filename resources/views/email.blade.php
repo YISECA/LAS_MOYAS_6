@@ -2,7 +2,7 @@
 
 
 
-<h2>Caminata SENDERO HORIZONTES - LAS MOYAS Domingo 28 de mayo de 2017</h2>
+<h2>Caminata SENDERO HORIZONTES - LAS MOYAS Domingo 02 de julio de 2017</h2>
 
 <h3>Punto de encuentro: CAI Rosales Av. Circunvalar calle 76 </h3>
 

@@ -22,7 +22,9 @@
 
     	<div class="panel panel-default">
 
-  	<div class="panel-heading">Información Personal</div>
+  	<div class="panel-heading">Información Personal
+        <h6>todos los campo con <font style="color: red; font-size: 22px">*</font> son obligatorios</h6>
+  </div>
 
   	<div class="panel-body">
 
@@ -30,8 +32,8 @@
   	<div class="row">
   	<br>
        <div class="col-md-6">
-			<label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput">Documento de identidad <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span></label></div>
-       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Tipo de Documento <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span></label></div>
+			<label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput">Documento de identidad <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span></label></div>
+       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Tipo de Documento <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span></label></div>
 
 
        <div class="col-md-6"><input title="Se necesita una cedula" required type="number" class="form-control" id="cedula" name="cedula" ></div>
@@ -41,73 +43,45 @@
 
 				<option value="2">Cédula de Extranjeria</option>
 
-			</select></div>
+			</select><br></div>
 
 
        <div class="col-md-6">
-			<label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Primer Nombre <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span></label>
+			<label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Primer Nombre <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span></label>
 
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Diligenciar en MAYÚSCULA y tal cual como aparece en el documento de identidad
-
-			</label>
        </div>
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Segundo Nombre </label>
-
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Diligenciar en MAYÚSCULA y tal cual como aparece en el documento de identidad
-
-			</label></div>
+</div>
 
 
        <div class="col-md-6"><input required type="text" class="form-control" id="primer_nombre" name="primer_nombre" onkeyup="javascript:this.value=this.value.toUpperCase();" ></div>
-       <div class="col-md-6"><input required type="text" class="form-control" id="segundo_nombre" name="segundo_nombre"  onkeyup="javascript:this.value=this.value.toUpperCase();"></div>
+       <div class="col-md-6"><input required type="text" class="form-control" id="segundo_nombre" name="segundo_nombre"  onkeyup="javascript:this.value=this.value.toUpperCase();"><br></div>
 
 
-       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Primer Apellido <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span></label>
-
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Diligenciar en MAYÚSCULA y tal cual como aparece en el documento de identidad
-
-			</label></div>
-       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Segundo Apellido <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span></label>
-
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Diligenciar en MAYÚSCULA y tal cual como aparece en el documento de identidad
-
-			</label></div>
+       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Primer Apellido <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span></label>
+</div>
+       <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">Segundo Apellido <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span></label>
+</div>
 
 
        <div class="col-md-6"><input required type="text" class="form-control" id="primer_apellido" name="primer_apellido"  onkeyup="javascript:this.value=this.value.toUpperCase();" ></div>
-       <div class="col-md-6"><input required type="text" class="form-control" id="segundo_apellido" name="segundo_apellido" onkeyup="javascript:this.value=this.value.toUpperCase();" ></div>
+       <div class="col-md-6"><input required type="text" class="form-control" id="segundo_apellido" name="segundo_apellido" onkeyup="javascript:this.value=this.value.toUpperCase();" ><br></div>
 
 
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">
 
-			Género <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span>
+			Género <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span>
 
 			</label>
 
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Seleccione su género
-
-			</label></div>
+			</div>
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">
 
-			Fecha Nacimiento  <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span>
+			Fecha Nacimiento  <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span>
 
 			</label>
 
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Seleccione de acuerdo a la fecha de su nacimiento
-
-			</label>
+			
 </div>
 
 
@@ -120,50 +94,36 @@
 				<option value="2">Femenino</option>
 
 			</select></div>
-       <div class="col-md-6"><input required type="text" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento"></div>
+       <div class="col-md-6"><input required type="text" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento"><br></div>
 
 
 
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">
 
-			Email  <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span>
+			Email  <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span>
 
 			</label>
 
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Digite Su correo electrónico
-
-			</label></div>
+			</div>
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">
 
-			Celular  <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span>
+			Celular  <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span>
 
 			</label>
-
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Digite Su número celular
-
-			</label></div>
+</div>
 
 
        <div class="col-md-6"><input required type="mail" class="form-control" id="mail" name="mail" ></div>
-       <div class="col-md-6"><input required type="number" class="form-control" id="celular" name="celular"></div>
+       <div class="col-md-6"><input required type="number" class="form-control" id="celular" name="celular"><br></div>
 
 
        <div class="col-md-6"><label class="freebirdFormviewerViewItemsItemItemTitle" for="formGroupExampleInput2">
 
-			Eps  <span style="color: red;font-size: 11px;text-transform: capitalize;color:red">(Campo Obligatorio)</span>
+			Eps  <span style="color: red;font-size: 20px;text-transform: capitalize;color:red">*</span>
 
 			</label>
 
-			<label class="freebirdFormviewerViewItemsPagebreakDescriptionText" style="font-size:11px">
-
-			Digite Su nombre eps
-
-			</label>
-
+			
 			<input required type="text" class="form-control" id="eps" name="eps" onkeyup="javascript:this.value=this.value.toUpperCase();" ></div>
 
    </div>
